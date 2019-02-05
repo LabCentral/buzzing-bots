@@ -1,0 +1,15 @@
+{
+    "name": "jellyfish",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "servo": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "wheels.ts",
+        "README.md"
+    ]
+}
