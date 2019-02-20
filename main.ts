@@ -1,4 +1,4 @@
 basic.forever(function () {
-    wheels.moveForward(1)
-    wheels.moveBackward(1)
+    wheels.moveForwardFor(1)
+    wheels.moveBackwardFor(1)
 })

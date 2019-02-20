@@ -1,15 +1,15 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables></variables>
-  <block type="device_forever" x="10" y="-1">
+  <block type="device_forever" x="0" y="0">
     <statement name="HANDLER">
-      <block type="wheels_move_forward">
+      <block type="wheels_move_forward_for">
         <value name="interval">
           <shadow type="math_number">
             <field name="NUM">1</field>
           </shadow>
         </value>
         <next>
-          <block type="wheels_move_backward">
+          <block type="wheels_move_backward_for">
             <value name="interval">
               <shadow type="math_number">
                 <field name="NUM">1</field>
